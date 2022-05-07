@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "slkscr";
+  src: local("slkscr"),
+    url("../public/fonts/silkscreen/slkscr.ttf") format("truetype");
+}
+
+.bit-font {
+  font-family: "slkscr";
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

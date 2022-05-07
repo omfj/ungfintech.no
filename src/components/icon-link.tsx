@@ -11,11 +11,11 @@ const IconLink = ({ text, icon, href }: Props) => {
   return (
     <NextLink href={href} passHref>
       <HStack
-        spacing="3"
+        spacing="2"
         alignItems="center"
         color="white"
         fontSize="2xl"
-        m="2"
+        mx="10"
         overflow="hidden"
         borderBottom="2px solid"
         borderColor="transparent"

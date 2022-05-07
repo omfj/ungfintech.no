@@ -23,7 +23,13 @@ const Home = () => {
           <Image src={UngFintech} alt="Ung Fintech Logo" />
         </Box>
 
-        <Text m="5" color="white" fontSize="2xl" align="center">
+        <Text
+          className="bit-font"
+          m="5"
+          color="white"
+          fontSize="2xl"
+          align="center"
+        >
           Fremtidens finans
         </Text>
 
