@@ -22,6 +22,7 @@ interface Props {
   instagram?: string;
   github?: string;
   linkedin?: string;
+  reverse?: boolean;
 }
 
 const AboutMember = ({
@@ -34,6 +35,7 @@ const AboutMember = ({
   instagram,
   github,
   linkedin,
+  reverse,
 }: Props) => (
   <HStack alignItems="flex-start" borderRadius="0.5rem">
     <Box px="3">
@@ -52,7 +54,7 @@ const AboutMember = ({
         />
       </Box>
     </Box>
-    <VStack align="left" h="100%" w="100%">
+    <VStack align="start" h="100%" maxW="">
       <Text className="no-top-m" as="em">
         {role}
       </Text>

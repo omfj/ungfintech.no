@@ -25,7 +25,7 @@ const AboutPage = (): JSX.Element => (
     <Main color="white">
       <NextLink href="/" passHref>
         <Link className="bit-font" m="auto" fontSize="2xl">
-          Ung Fintech
+          {"<- Ung Fintech"}
         </Link>
       </NextLink>
       <Heading fontSize="5xl">Hvem er vi?</Heading>
@@ -53,7 +53,7 @@ const AboutPage = (): JSX.Element => (
         my="10"
         gap="20"
       >
-        {t.members.map((member: Member) => (
+        {t.members.map((member: Member, i: number) => (
           <AboutPerson
             key={`${member.firstName}-${member.lastName}`}
             firstName={member.firstName}
@@ -65,6 +65,7 @@ const AboutPage = (): JSX.Element => (
             instagram={member.instagram ?? undefined}
             github={member.github ?? undefined}
             linkedin={member.linkedin ?? undefined}
+            reverse={i % 2 == 0}
           />
         ))}
       </SimpleGrid>
