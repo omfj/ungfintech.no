@@ -1,13 +1,9 @@
 import {
   Text,
   Box,
-  GridItem,
   Flex,
   VStack,
   HStack,
-  StackDivider,
-  Divider,
-  Link,
   Icon,
   Spacer,
 } from "@chakra-ui/react";
@@ -15,7 +11,6 @@ import Image from "next/image";
 import NextLink from "next/link";
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import Socials from "./socials";
 
 interface Props {
   firstName: string;
@@ -43,11 +38,19 @@ const AboutMember = ({
   <HStack alignItems="flex-start" borderRadius="0.5rem">
     <Box px="3">
       <Box
-        bg={`url(${image}) center/cover no-repeat`}
+        pos="relative"
+        overflow="hidden"
         borderRadius="50%"
         w="125px"
         h="125px"
-      />
+      >
+        <Image
+          src={image}
+          alt={`Picture of ${firstName}`}
+          layout="fill"
+          objectFit="cover"
+        />
+      </Box>
     </Box>
     <VStack align="left" h="100%" w="100%">
       <Text className="no-top-m" as="em">
