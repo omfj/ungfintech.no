@@ -1,4 +1,4 @@
-import { Text, Flex, Icon, HStack, LinkOverlay } from "@chakra-ui/react";
+import { Text, Icon, HStack } from "@chakra-ui/react";
 import NextLink from "next/link";
 
 interface Props {

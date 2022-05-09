@@ -6,7 +6,7 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
   return (
-    <Box overflow="hidden" minH="100vh" bg="black">
+    <Box overflow="hidden" color="white" minH="100vh" bg="black">
       {children}
     </Box>
   );

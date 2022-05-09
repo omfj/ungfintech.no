@@ -8,6 +8,14 @@
   font-family: "slkscr";
 }
 
+.fade-with-bg {
+  box-shadow: 0 0 16px 16px black inset;
+}
+
+.no-top-m {
+  margin-top: 0 !important;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

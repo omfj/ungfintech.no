@@ -1,0 +1,57 @@
+{
+    "members": [
+        {
+            "firstName": "Halvor",
+            "lastName": "Cappelen Wik",
+            "role": "Leder",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+            "image": "/images/members/halvor-cappelen.jpg"
+        },
+        {
+            "firstName": "Johannes",
+            "lastName": "Helleve",
+            "role": "Nestleder",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+            "image": "/images/members/johannes-helleve.jpg"
+        },
+        {
+            "firstName": "Ole Magnus",
+            "lastName": "Johnsen",
+            "role": "Webansvarlig",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+            "image": "/images/members/ole-magnus-johnsen.jpg",
+            "linkedin": "https://linkedin.com/in/omfj",
+            "instagram": "https://instagram.com/",
+            "github": "https://github.com/omfj"
+        },
+        {
+            "firstName": "Eirik",
+            "lastName": "Egge",
+            "role": "Økonomiansvarlig",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+            "image": "/images/members/eirik-egge.jpg",
+            "mail": "mailto:eirik.egge@ungfintech.no"
+        },
+        {
+            "firstName": "Trygve",
+            "lastName": "Ytterdahl",
+            "role": "Markedsfører",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+            "image": "/images/members/trygve-ytterdahl.jpg"
+        },
+        {
+            "firstName": "Isak",
+            "lastName": "Erikstad",
+            "role": "Sosialansvarlig",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+            "image": "/images/members/isak-erikstad.jpg"
+        },
+        {
+            "firstName": "Amadeus",
+            "lastName": "Linge",
+            "role": "Sponsoransvarlig",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+            "image": "/images/members/amadeus-linge.jpg"
+        }
+    ]
+}

@@ -1,8 +1,8 @@
-import { Text, Box, Link, Center, HStack, Icon, Stack } from "@chakra-ui/react";
+import { Text, Box, Center } from "@chakra-ui/react";
 import { GrLinkedin } from "react-icons/gr";
 import { FiMail } from "react-icons/fi";
 import Image from "next/image";
-import UngFintech from "../../public/images/ungfintech-logo-trimmed-transparent.png";
+import UngFintech from "../../public/images/logos/ungfintech-logo-trimmed-transparent.png";
 import IconLink from "../components/icon-link";
 import SEO from "../components/seo";
 
