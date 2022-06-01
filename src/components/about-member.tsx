@@ -8,9 +8,9 @@ interface Props {
 }
 
 const AboutMember = ({ firstName, lastName, role, image }: Props) => (
-  <div className="flex flex-row rounded gap-3 m-auto text-center">
+  <div className="flex flex-row rounded gap-3 m-auto text-center w-48 justify-center">
     <div>
-      <div className="border-2 relative overflow-hidden rounded-md w-44 h-44">
+      <div className="border-2 relative overflow-hidden rounded-md w-48 h-48">
         <Image
           src={image}
           alt={`Picture of ${firstName}`}
