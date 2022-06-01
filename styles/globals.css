@@ -1,29 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "slkscr";
   src: local("slkscr"),
     url("../public/fonts/silkscreen/slkscr.ttf") format("truetype");
 }
 
-.bit-font {
-  font-family: "slkscr";
-}
+@layer base {
+  * {
+    @apply box-border m-0;
+  }
 
-.fade-with-bg {
-  box-shadow: 0 0 16px 16px black inset;
-}
-
-.no-top-m {
-  margin-top: 0 !important;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-html,
-body {
-  padding: 0;
-  color: white;
-  background-color: black;
+  html,
+  body {
+    @apply p-0 text-white bg-black;
+  }
 }

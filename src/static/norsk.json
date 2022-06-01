@@ -1,57 +1,66 @@
 {
-    "members": [
-        {
-            "firstName": "Halvor",
-            "lastName": "Cappelen Wik",
-            "role": "Leder",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
-            "image": "/images/members/halvor-cappelen.jpg"
-        },
-        {
-            "firstName": "Johannes",
-            "lastName": "Helleve",
-            "role": "Nestleder",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
-            "image": "/images/members/johannes-helleve.jpg"
-        },
-        {
-            "firstName": "Amadeus",
-            "lastName": "Linge",
-            "role": "Sponsoransvarlig",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
-            "image": "/images/members/amadeus-linge.jpg"
-        },
-        {
-            "firstName": "Eirik",
-            "lastName": "Egge",
-            "role": "Økonomiansvarlig",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
-            "image": "/images/members/eirik-egge.jpg",
-            "mail": "mailto:eirik.egge@ungfintech.no"
-        },
-        {
-            "firstName": "Isak",
-            "lastName": "Erikstad",
-            "role": "Sosialansvarlig",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
-            "image": "/images/members/isak-erikstad.jpg"
-        },
-        {
-            "firstName": "Ole Magnus",
-            "lastName": "Johnsen",
-            "role": "Webansvarlig",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
-            "image": "/images/members/ole-magnus-johnsen.jpg",
-            "mail": "mailto:ole.magnus.johnsen@ungfintech.no",
-            "linkedin": "https://linkedin.com/in/omfj",
-            "github": "https://github.com/omfj"
-        },
-        {
-            "firstName": "Trygve",
-            "lastName": "Ytterdahl",
-            "role": "Markedsfører",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
-            "image": "/images/members/trygve-ytterdahl.jpg"
-        }
-    ]
+    "about-page": {
+        "title": "Hvem er vi?",
+        "description": "Ung FinTech er en studentforening som ønsker å skape engasjement om skjæringspunktet mellom informatikk og finans. Vi skal holde foredrag/arrangement/workshop sammen med profiler/organisasjoner/bedrifter for å lære mer om FinTech. Gruppen og arrangemnetene er åpne for alle studenter!",
+        "members": [
+            {
+                "firstName": "Halvor",
+                "lastName": "Cappelen Wik",
+                "role": "Leder",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+                "image": "/images/members/halvor-cappelen.jpg"
+            },
+            {
+                "firstName": "Johannes",
+                "lastName": "Helleve",
+                "role": "Nestleder",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+                "image": "/images/members/johannes-helleve.jpg"
+            },
+            {
+                "firstName": "Amadeus",
+                "lastName": "Linge",
+                "role": "Sponsoransvarlig",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+                "image": "/images/members/amadeus-linge.jpg"
+            },
+            {
+                "firstName": "Eirik",
+                "lastName": "Egge",
+                "role": "Økonomiansvarlig",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+                "image": "/images/members/eirik-egge.jpg",
+                "mail": "mailto:eirik.egge@ungfintech.no"
+            },
+            {
+                "firstName": "Isak",
+                "lastName": "Erikstad",
+                "role": "Sosialansvarlig",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+                "image": "/images/members/isak-erikstad.jpg"
+            },
+            {
+                "firstName": "Ole Magnus",
+                "lastName": "Johnsen",
+                "role": "Webansvarlig",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+                "image": "/images/members/ole-magnus-johnsen.jpg",
+                "mail": "mailto:ole.magnus.johnsen@ungfintech.no",
+                "linkedin": "https://linkedin.com/in/omfj",
+                "github": "https://github.com/omfj"
+            },
+            {
+                "firstName": "Trygve",
+                "lastName": "Ytterdahl",
+                "role": "Markedsfører",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Beskrivelse.",
+                "image": "/images/members/trygve-ytterdahl.jpg"
+            }
+        ]
+    },
+    "for-companies": {
+        "title": "For bedrifter",
+        "contact": "Hvis du er bedrift og ønsker å få tilgang til Ung FinTech, kan du kontakte oss på <a href='mailto:kontakt@ungfintech.no'>kontakt@ungfintech.no</a>.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in velit ex. Vivamus ut leo sit amet nisl aliquam tincidunt. Mauris venenatis sit amet nunc et rutrum. Nullam eu aliquam nunc. In hac habitasse platea dictumst. Proin sed eleifend eros. Quisque vitae tempor nulla. Fusce lectus dui, blandit vel consequat non, sagittis a turpis. Vestibulum vehicula feugiat arcu, sed consectetur sapien laoreet in. Vivamus dapibus nunc dui, at semper quam elementum sed. Aenean laoreet erat eget enim ultrices gravida. Donec mattis id dolor sit amet posuere. Donec ut felis arcu. Phasellus felis velit, auctor sed laoreet vitae, rutrum ut mi. Suspendisse vitae urna at orci aliquet consequat. Proin in nisl mattis, malesuada lectus non, cursus ipsum. Praesent in mattis diam. Donec pulvinar metus enim, eu dapibus sem feugiat id. Ut nec tellus quam. Proin mollis condimentum risus vitae tempor. Integer condimentum enim vitae pretium consequat. In id facilisis odio, vel auctor ipsum. Praesent iaculis, nisi vitae aliquam fermentum, risus turpis posuere justo, at posuere sapien est eget odio. Vivamus molestie lacus mauris, a condimentum diam efficitur ut. Donec fermentum suscipit elit vitae tincidunt. Curabitur nisl turpis, rhoncus blandit gravida nec, pretium nec quam. Ut eget nisl massa. Integer imperdiet porttitor laoreet. Suspendisse vitae lobortis nisl, non pellentesque velit. Donec vitae vulputate dolor. Duis vel nulla interdum nisl porta tempor et quis nunc. Mauris pulvinar urna metus, id ornare risus condimentum et. Fusce at quam id ex varius placerat quis lacinia neque. Aenean mattis rhoncus urna quis gravida. Nullam eu sodales leo, in molestie erat. Nulla facilisi. Nunc tristique nulla a justo venenatis, sed laoreet nisl interdum. Vivamus id malesuada ipsum. Phasellus consequat euismod dolor, a dignissim metus commodo eu. In tempus nisi libero, nec venenatis nunc ultrices in. In congue, leo ut ornare rhoncus, mi dui aliquam mi, et iaculis."
+    }
 }

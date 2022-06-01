@@ -1,4 +1,3 @@
-import { Box, Text } from "@chakra-ui/react";
 import { NextPageContext } from "next";
 
 interface ErrorComponentProps {
@@ -7,16 +6,14 @@ interface ErrorComponentProps {
 
 const Error = ({ statusCode }: ErrorComponentProps): JSX.Element => {
   return (
-    <Box>
-      <Text textAlign="center" fontWeight="extrabold" fontSize="2rem">
+    <div>
+      <p className="text-center font-extrabold text-2xl">
         {statusCode
           ? "An error occurred on server"
           : "An error occurred on client"}
-      </Text>
-      <Text textAlign="center" fontSize="2rem">
-        {statusCode}
-      </Text>
-    </Box>
+      </p>
+      <p className="text-center text-2xl">{statusCode}</p>
+    </div>
   );
 };
 

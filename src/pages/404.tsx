@@ -1,35 +1,12 @@
-import { Text, Box, Center } from "@chakra-ui/react";
-import NextLink from "next/link";
+import FrontpageLink from "../components/frontpage-link";
 
 const NotFoundPage = () => (
-  <Box
-    className="bit-font"
-    color="white"
-    pos="absolute"
-    top="25%"
-    left="50%"
-    transform="auto"
-    translateX="-50%"
-  >
-    <Text fontSize="7xl">Page not found...</Text>
-    <Center mt="5">
-      <NextLink href="/" passHref>
-        <Box
-          w="fit-content"
-          textAlign="center"
-          fontSize="5xl"
-          border="4px solid white"
-          p="3"
-          _hover={{
-            cursor: "pointer",
-            borderColor: "white",
-          }}
-        >
-          <Text>Home</Text>
-        </Box>
-      </NextLink>
-    </Center>
-  </Box>
+  <div className="flex flex-col max-w-4xl m-auto gap-10 mt-20 font-bit text-white text-center">
+    <p className="text-6xl">Denne siden finnes ikke...</p>
+    <div className="flex justify-center">
+      <FrontpageLink text="Til forsiden" to="/" />
+    </div>
+  </div>
 );
 
 export default NotFoundPage;

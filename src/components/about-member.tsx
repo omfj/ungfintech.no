@@ -1,103 +1,32 @@
-import {
-  Text,
-  Box,
-  Flex,
-  VStack,
-  HStack,
-  Icon,
-  Spacer,
-} from "@chakra-ui/react";
 import Image from "next/image";
-import NextLink from "next/link";
-import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
-import { AiOutlineMail } from "react-icons/ai";
 
 interface Props {
   firstName: string;
   lastName: string;
   role: string;
-  desc: string;
   image: any;
-  mail?: string;
-  instagram?: string;
-  github?: string;
-  linkedin?: string;
-  reverse?: boolean;
 }
 
-const AboutMember = ({
-  firstName,
-  lastName,
-  role,
-  desc,
-  image,
-  mail,
-  instagram,
-  github,
-  linkedin,
-  reverse,
-}: Props) => (
-  <HStack alignItems="flex-start" borderRadius="0.5rem">
-    <Box px="3">
-      <Box
-        pos="relative"
-        overflow="hidden"
-        borderRadius="50%"
-        w="125px"
-        h="125px"
-      >
+const AboutMember = ({ firstName, lastName, role, image }: Props) => (
+  <div className="flex flex-row rounded gap-3 m-auto text-center">
+    <div>
+      <div className="border-2 relative overflow-hidden rounded-md w-44 h-44">
         <Image
           src={image}
           alt={`Picture of ${firstName}`}
           layout="fill"
           objectFit="cover"
         />
-      </Box>
-    </Box>
-    <VStack align="start" h="100%" maxW="">
-      <Text className="no-top-m" as="em">
-        {role}
-      </Text>
-      <Text as="b" className="no-top-m" borderBottom="1px solid white">
-        {firstName} {lastName}
-      </Text>
+      </div>
 
-      <Text>{desc}</Text>
-
-      <Spacer />
-
-      <Flex>
-        {mail ? (
-          <NextLink href={mail} passHref>
-            <Icon as={AiOutlineMail} mr="2" _hover={{ cursor: "pointer" }} />
-          </NextLink>
-        ) : (
-          ""
-        )}
-        {instagram ? (
-          <NextLink href={instagram} passHref>
-            <Icon as={BsInstagram} mr="2" _hover={{ cursor: "pointer" }} />
-          </NextLink>
-        ) : (
-          ""
-        )}
-        {github ? (
-          <NextLink href={github} passHref>
-            <Icon as={BsGithub} mr="2" _hover={{ cursor: "pointer" }} />
-          </NextLink>
-        ) : (
-          ""
-        )}
-        {linkedin ? (
-          <NextLink href={linkedin} passHref>
-            <Icon as={BsLinkedin} mr="2" _hover={{ cursor: "pointer" }} />
-          </NextLink>
-        ) : (
-          ""
-        )}
-      </Flex>
-    </VStack>
-  </HStack>
+      <div className="text-lg">
+        <i className="font-light">{role}</i>
+        <p className="font-bold">
+          {firstName} {lastName}
+        </p>
+      </div>
+    </div>
+  </div>
 );
 
 export default AboutMember;

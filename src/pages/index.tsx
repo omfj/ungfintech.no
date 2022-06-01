@@ -1,97 +1,28 @@
-import {
-  Text,
-  Box,
-  Center,
-  Link,
-  Stack,
-  VStack,
-  HStack,
-  Flex,
-} from "@chakra-ui/react";
-import { GrLinkedin } from "react-icons/gr";
-import { FiMail } from "react-icons/fi";
-import NextLink from "next/link";
 import Image from "next/image";
 import UngFintech from "../../public/images/logos/ungfintech-logo-trimmed-transparent.png";
-import IconLink from "../components/icon-link";
 import SEO from "../components/seo";
+import FrontpageLink from "../components/frontpage-link";
 
-const Home = () => {
-  return (
-    <>
-      <SEO title="Ung Fintech" />
-      <Center
-        pos="absolute"
-        top="20%"
-        left="50%"
-        transform="auto"
-        translateX="-50%"
-        flexDirection="column"
-        w="100%"
-      >
-        <Box mx="10" maxW="500px">
+const Home = () => (
+  <>
+    <SEO title="Ung Fintech" />
+    <div className="mt-36 flex flex-col px-10 gap-20 md:gap-10">
+      <div className="flex flex-col max-w-[600px] text-center gap-5 m-auto">
+        <div>
           <Image src={UngFintech} alt="Ung Fintech Logo" />
-        </Box>
-
-        <Text
-          className="bit-font"
-          m="5"
-          color="white"
-          fontSize="3xl"
-          align="center"
-        >
-          Fremtidens finans
-        </Text>
-
-        <Flex
-          flexWrap="wrap"
-          mt="10"
-          textAlign="center"
-          className="bit-font"
-          justify="center"
-          fontSize="2xl"
-          mx="5"
-        >
-          <Box
-            border="2px solid white"
-            transition="ease-in 0.2s"
-            m="2"
-            p="2"
-            _hover={{ cursor: "pointer", bg: "white", color: "black" }}
-          >
-            <NextLink
-              href="https://www.linkedin.com/company/echofintech"
-              passHref
-            >
-              <Text>LinkedIn</Text>
-            </NextLink>
-          </Box>
-          <Box
-            border="2px solid white"
-            transition="ease-in 0.2s"
-            m="2"
-            p="2"
-            _hover={{ cursor: "pointer", bg: "white", color: "black" }}
-          >
-            <NextLink href="mailto:kontakt@ungfintech.no">
-              <Text>Kontakt oss</Text>
-            </NextLink>
-          </Box>
-          <Box
-            border="2px solid white"
-            transition="ease-in 0.2s"
-            m="2"
-            p="2"
-            _hover={{ cursor: "pointer", bg: "white", color: "black" }}
-          >
-            <NextLink href="/hvem-er-vi" passHref>
-              <Text>Hvem er vi?</Text>
-            </NextLink>
-          </Box>
-        </Flex>
-      </Center>
-    </>
-  );
-};
+        </div>
+        <p className="font-bit text-2xl sm:text-4xl">Fremtidens finans</p>
+      </div>
+      <div className="flex flex-row flex-wrap gap-7 md:gap-5 justify-center">
+        <FrontpageLink
+          text="LinkedIn"
+          to="https://www.linkedin.com/company/echofintech"
+        />
+        <FrontpageLink text="Kontakt oss" to="mailto:kontakt@ungfintech.no" />
+        <FrontpageLink text="Hvem er vi?" to="/hvem-er-vi" />
+      </div>
+    </div>
+  </>
+);
 
 export default Home;
