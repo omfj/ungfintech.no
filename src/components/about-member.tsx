@@ -13,7 +13,7 @@ const AboutMember = ({ firstName, lastName, role, image }: Props) => (
       <div className="border-2 relative overflow-hidden rounded-md w-48 h-48">
         <Image
           src={image}
-          alt={`Picture of ${firstName}`}
+          alt={`Portrait of ${firstName} ${lastName}`}
           layout="fill"
           objectFit="cover"
         />

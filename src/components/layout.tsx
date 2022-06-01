@@ -3,7 +3,7 @@ interface Props {
 }
 
 const Layout = ({ children }: Props) => (
-  <div className="overflow-x-hidden text-white min-h-screen">{children}</div>
+  <div className="overflow-x-hidden text-white">{children}</div>
 );
 
 export default Layout;
