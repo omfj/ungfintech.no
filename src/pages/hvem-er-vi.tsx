@@ -7,7 +7,7 @@ import BackButton from "../components/back-button";
 const AboutPage = (): JSX.Element => (
   <>
     <SEO title="Hvem er vi?" />
-    <div className="m-auto py-5 px-5 max-w-5xl">
+    <div className="absolute top-[5%] w-full max-w-5xl px-5 left-1/2 -translate-x-1/2">
       <div className="flex flex-col gap-5 sm:px-5">
         <BackButton />
         <Title>{t["about-page"].title}</Title>
