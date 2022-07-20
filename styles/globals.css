@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "slkscr";
-  src: local("slkscr"),
-    url("../public/fonts/silkscreen/slkscr.ttf") format("truetype");
-}
-
 @layer base {
+  @font-face {
+    font-family: "slkscr";
+    src: local("slkscr"),
+      url("../public/fonts/silkscreen/slkscr.ttf") format("truetype");
+  }
+
   * {
     @apply box-border m-0;
   }

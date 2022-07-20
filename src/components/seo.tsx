@@ -9,7 +9,7 @@ const SEO = ({ title, desc }: Props): JSX.Element => {
   return (
     <Head>
       <title>{title}</title>
-      <meta name="description" content={desc ? desc : "ungfintech.no"} />
+      {desc ?? <meta name="description" content={desc} />}
     </Head>
   );
 };
